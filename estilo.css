@@ -1,66 +1,169 @@
-html, body { 
+html, body {
     margin:0;
+    background-color:#DB48A2;
 }
-#imagemfundo{
-    background: url(Imagem/FUNDO2.png);
+header {
+    background: white;
+    height: 70px;
     width: 100%;
-    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 0 5px 0  #000;
+}
+#logo{
+    float: left;
+    font-family: 'anton';
+    font-size: 32px;
+    margin: 0;
+    margin-left: 200px;
+    padding: 9px 20px 9px 20px;   
+}
+#logo:hover {
+    color: #DB48A2;
+}
+.corlogo {
+    text-decoration: none;
+    color: #DB48A2;
+}
+#menu {
+    float: right;
+    font-family: 'barlow condensed';
+    font-size: 22px;
+    margin-right: 200px;
+    margin-top: 0px;
+    list-style: none; 
+}
+li {
+    float: left;
+    color: white;
+    padding: 20px 10px 20px 10px;
+}
+.cormenu {
+    text-decoration: none;
+    color: black;    
+}
+#imagem_fundo { 
+    background: url(Imagem/Alforria\ XXI\ \(2\).png);
     background-size: cover;
     text-align: center;
+    height: 100vh;
+    width: 100%;
+    
 }
-body { 
-    background-color: #E05780;
-    border-top: 0px;
-}
-#título {
-     color: white; 
-     font-size: 70px;
-     font-family: Verdana; 
-     margin: 0px;
-     padding-top: 300px;
-}
-#subtítulo {
-    color: white; 
-    font-size: 30px;
+#tex1 {
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-family: 'anton';
+    font-weight: lighter;
+    font-size: 140px;
+    color: #DB48A2;
+    margin: 0;
+    padding-top: 280px;  
 }
 #siteONU {
-    font-size: 30px;
+    text-decoration: none;
     font-family: 'barlow condensed';
+    font-weight: normal;
+    font-size: 30px;
     color: white;
     margin: 0px;
-    font-weight: normal;
-    border: 2px white solid;
-    padding: 10px 20px 
+    padding: 10px 20px ;
+    border: 2px white solid;    
 }
-#cabeçalho {
-    font-size: 40px;
-    display: block;
-    font-weight: bold;
-    padding-top: 25px;
-    font-family: Arial;
-}
-#corfundo {
-    background-color: #FFE0E9;
-    height: 650px;
-}
-#corfundo1 {
-    background-color: #FFC2D4;
-    height: 600px;
+#Projeto {
+    background-color:white;
+    border-left: 2.9vw #DB48A2 solid;
 }
 #paragrafo {
-    margin-right: 30px;
-    font-size: 20px;
-    font-family: 'Lucida Sans Unicode';
-    padding-bottom: 10px;
+    font-family: 'barlow condensed';
+    font-size: 24px;
 }
-#denuncia {
-    background-color: #E05780;
-    height: 300px;
-    font-size: 20px;
-    font-family: 'Lucida Sans Unicode';
+#projtext {
+    float: right;
+    font-family: 'barlow condensed';
+    font-size: 24px;
+    margin-right: 90px;
+    margin-top: 32px;
 }
-#OqTH {
-    padding-top: 8px;
+#grafico {
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+#Oqueé {
+    background-color: #F1F1F1;
+    padding: 100px 0 100px 0;
+    border-left: 2.9vw #522888 solid;
+}
+#Oquetext {
+    float: left;
+    font-family: 'barlow condensed';
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 32px;
+}
+#video_traficohumano {
+    margin:0;
+    padding: 70px 100px 70px 850px;
+}
+#CAA {
+    background-color: white;
+    margin-top:0;
+    padding: 70px 0 70px 0;
+    border-left: 2.9vw #8e359d solid;
+}
+#VideoAtuam {
+    float: left;
+    padding: 100px 150px 100px 150px;
+}
+#caatext {
+    font-family: 'barlow condensed';
+    font-size: 24px;
+    margin:0;
+    padding: 150px 150px 150px 150px;    
+}
+#ddv {
+    background-color: white;
+    
+}
+#cabeçalho {
+    text-align: center;
+    font-family: 'barlow condensed';
+    font-size: 40px;
+    margin: 0;
+    padding: 60px 0 40px 0;
+}
+#icones {
+    width: 120px;
+}
+#ddvtext {
+    float: left;
+    text-align: center;
+    font-family:'barlow condensed';
+    font-size: 22px;
+    width: 24%;
+    position: relative;
+    padding: 5% 0.5%;   
+    background-color: white;
+}
+#cabeçalho2 {
+    font-family: 'barlow condensed';
+    font-size: 24px;
+}
+#BrTM {
+    background-color: #F1F1F1;
+    text-align: center;
+    border-left: 2.9vw #c745ab solid;
+}
+#Brtext {
+    font-family: 'barlow condensed';
+    font-size: 24px;
+    padding-top: 600px;
+    
+}
+#projsbr {
+    padding: 70px;
 }
 
 
